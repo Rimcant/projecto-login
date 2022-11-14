@@ -32,9 +32,13 @@ grandes telas acima de 1200px
         width: 67%;
     
     }
+    div#formulario > p {
+        text-align: justify;
+        font-size: 1em;
+        padding: 2px;
 
 }
-
+}
 @media screen and (min-width: 992px) {
     section#login{
         width: 990px;
@@ -46,6 +50,12 @@ grandes telas acima de 1200px
     section#login > div#formulario{
         float:left;
         width: 48%;
+    }
+    div#formulario > p {
+        text-align: justify;
+        font-size: 1.2em;
+        padding: 2px;
+        
     }
     
 }
